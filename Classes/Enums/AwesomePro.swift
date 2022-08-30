@@ -11,7 +11,7 @@ import Foundation
 
 public struct AwesomePro {
 
-    public enum Regular: String, Amazing {
+    public enum Regular: String, Amazing, CaseIterable {
         case abacus = "\u{f640}"
         case acorn = "\u{f6ae}"
         case ad = "\u{f641}"
@@ -2343,7 +2343,7 @@ public struct AwesomePro {
         }
     }
 
-    public enum Solid: String, Amazing {
+    public enum Solid: String, Amazing, CaseIterable {
         case abacus = "\u{f640}"
         case acorn = "\u{f6ae}"
         case ad = "\u{f641}"
@@ -4212,7 +4212,7 @@ public struct AwesomePro {
         }
     }
 
-    public enum Light: String, Amazing {
+    public enum Light: String, Amazing, CaseIterable {
         case abacus = "\u{f640}"
         case acorn = "\u{f6ae}"
         case ad = "\u{f641}"
@@ -6081,7 +6081,7 @@ public struct AwesomePro {
         }
     }
 
-    public enum Duotone: String, Amazing {
+    public enum Duotone: String, Amazing, CaseIterable {
         case abacus = "\u{f640}"
         case acorn = "\u{f6ae}"
         case ad = "\u{f641}"
